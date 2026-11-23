@@ -4,7 +4,7 @@ myvenv/
 venv/
 
 # Python build and cache
-__pychache__/
+__pycache__/
 *.py[cod]
 *.egg-info/
 build/
