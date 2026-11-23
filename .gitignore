@@ -1,0 +1,31 @@
+# Virtual envirnoment
+myvenv/
+.venv
+venv/
+
+# Python build and cache
+__pychache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tool caches
+.pytest_cache
+.ruff_cache
+.coverage
+htmlcov/
+
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+
+# Data folder: may contain PII, never commit
+/data/
+
+# Editor and OS
+.vscode
+.idea/
+Thumbs.db
+.DS_Store
