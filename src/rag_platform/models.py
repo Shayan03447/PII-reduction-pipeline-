@@ -1,12 +1,12 @@
 import hashlib
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from typing import Any
 
 from pydantic import BaseModel, Field
 
 
 def utc_now()-> datetime:
-    return datetime.now(timezone.utc)
+    return datetime.now(UTC)
 
 def content_hash(text: str)-> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()

@@ -6,6 +6,7 @@ from pathlib import Path
 from rag_platform.models import RawDocument
 from rag_platform.sources.base import Source
 
+
 class FileSource(Source):
     """Read raw record from local files."""
     name = "files"

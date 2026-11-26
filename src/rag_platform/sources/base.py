@@ -3,6 +3,7 @@ from collections.abc import Iterator
 
 from rag_platform.models import RawDocument
 
+
 class Source(ABC):
     name: str
     @abstractmethod
